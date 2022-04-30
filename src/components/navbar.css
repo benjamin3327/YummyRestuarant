@@ -1,0 +1,22 @@
+navbar {
+    /* background-color: rgb(3, 44, 44);
+    color: #fff; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .nav-link:hover {
+    color: yellow;
+  }
+  
+  a {
+    text-decoration: none;
+    color: yellow;
+  }
+  a:hover {
+    text-decoration: none;
+    color: red;
+  }
+  
