@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+//import {Link} from "react-router-dom";
 
 import '../assets/responsive.css';
 import '../assets/slicknav.min.css';
@@ -22,16 +23,16 @@ const Navbar = () => {
                     <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link js-scroll active" href="#home">Home</a>
+                                <a to="/home" className="nav-link js-scroll active">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link js-scroll" href="#about">About</a>
+                                <a to="/about" className="nav-link js-scroll">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link js-scroll" href="#work">Shop</a>
+                                <a to="/shop" className="nav-link js-scroll">Shop</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link js-scroll" href="#contact">Contact</a>
+                                <a to="/contact" className="nav-link js-scroll">Contact</a>
                             </li>
                         </ul>
                     </div>

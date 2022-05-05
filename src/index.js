@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import './assets/responsive.css';
 import './assets/slicknav.min.css';
 import './assets/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './assets/css/animate/animate.min.css';
 import './assets/css/owlcarousel/assets/owl.carousel.min.css';

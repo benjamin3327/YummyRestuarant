@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 import Navbar from './navbar';
@@ -65,7 +66,7 @@ const Shop = () => {
                             <div className="col-lg-4 col-12 col-md-6 col-sm-6 mb-5" >
                                 <div className="product">
                                     <div className="product-wrap">
-                                        <a routerLink="/product-single"><img className="img-fluid w-100 mb-3 img-first" src={Amala} alt="product-img" /></a>
+                                        <a><img className="img-fluid w-100 mb-3 img-first" src={Amala} alt="product-img" /></a>
                                     </div>
                                     <span className="onsale">Sale</span>
                                     <div className="product-hover-overlay">
@@ -73,7 +74,7 @@ const Shop = () => {
                                         <a href="#"><i className="tf-ion-ios-heart"></i></a>
                                     </div>
                                     <div className="product-info">
-                                        <h2 className="product-title h5 mb-0"><a routerLink="/product-single">Amala</a></h2>
+                                        <h2 className="product-title h5 mb-0"><a>Amala</a></h2>
                                         <span className="price">
                                         $329.10
                                         </span>
@@ -100,7 +101,7 @@ const Shop = () => {
                             <div className="col-lg-4 col-12 col-md-6 col-sm-6 mb-5" >
                                 <div className="product">
                                     <div className="product-wrap">
-                                        <a routerLink="/product-single"><img className="img-fluid w-100 mb-3 img-first" src={FriedRice} alt="product-img" /></a>
+                                        <a><img className="img-fluid w-100 mb-3 img-first" src={FriedRice} alt="product-img" /></a>
                                     </div>
                                     <span className="onsale">Sale</span>
                                     <div className="product-hover-overlay">
@@ -108,7 +109,7 @@ const Shop = () => {
                                         <a href="#"><i className="tf-ion-ios-heart"></i></a>
                                     </div>
                                     <div className="product-info">
-                                        <h2 className="product-title h5 mb-0"><a routerLink="/product-single">Fried Rice</a></h2>
+                                        <h2 className="product-title h5 mb-0"><a>Fried Rice</a></h2>
                                         <span className="price">
                                         $350.00 – $355.00
                                         </span>
@@ -118,14 +119,14 @@ const Shop = () => {
                             <div className="col-lg-4 col-12 col-md-6 col-sm-6 mb-5">
                                 <div className="product">
                                     <div className="product-wrap">
-                                        <a routerLink="/product-single"><img className="img-fluid w-100 mb-3 img-first" src={Fufu} alt="product-img" /></a>
+                                        <a><img className="img-fluid w-100 mb-3 img-first" src={Fufu} alt="product-img" /></a>
                                     </div>
                                     <div className="product-hover-overlay">
                                         <a href="#"><i className="tf-ion-android-cart"></i></a>
                                         <a href="#"><i className="tf-ion-ios-heart"></i></a>
                                     </div>
                                     <div className="product-info">
-                                        <h2 className="product-title h5 mb-0"><a routerLink="/product-single">Fufu</a></h2>
+                                        <h2 className="product-title h5 mb-0"><a>Fufu</a></h2>
                                         <span className="price">
                                         $249
                                         </span>
@@ -135,14 +136,14 @@ const Shop = () => {
                             <div className="col-lg-4 col-12 col-md-6 col-sm-6 mb-5">
                                 <div className="product">
                                     <div className="product-wrap">
-                                        <a routerLink="/product-single"><img className="img-fluid w-100 mb-3 img-first" src={Jollof} alt="product-img" /></a>
+                                        <a><img className="img-fluid w-100 mb-3 img-first" src={Jollof} alt="product-img" /></a>
                                     </div>
                                     <div className="product-hover-overlay">
                                         <a href="#"><i className="tf-ion-android-cart"></i></a>
                                         <a href="#"><i className="tf-ion-ios-heart"></i></a>
                                     </div>
                                     <div className="product-info">
-                                        <h2 className="product-title h5 mb-0"><a routerLink="/product-single">Jollof Rice</a></h2>
+                                        <h2 className="product-title h5 mb-0"><a>Jollof Rice</a></h2>
                                         <span className="price">
                                         $59.10
                                         </span>
@@ -152,14 +153,14 @@ const Shop = () => {
                             <div className="col-lg-4 col-12 col-md-6 col-sm-6 mb-5" >
                                 <div className="product">
                                     <div className="product-wrap">
-                                        <a routerLink="/product-single"><img className="img-fluid w-100 mb-3 img-first" src={GrilledMeat} alt="product-img" /></a>
+                                        <a><img className="img-fluid w-100 mb-3 img-first" src={GrilledMeat} alt="product-img" /></a>
                                     </div>
                                     <div className="product-hover-overlay">
                                         <a href="#"><i className="tf-ion-android-cart"></i></a>
                                         <a href="#"><i className="tf-ion-ios-heart"></i></a>
                                     </div>
                                     <div className="product-info">
-                                        <h2 className="product-title h5 mb-0"><a routerLink="/product-single">Grilled Meat</a></h2>
+                                        <h2 className="product-title h5 mb-0"><a>Grilled Meat</a></h2>
                                         <span className="price">
                                         $99.00
                                         </span>
